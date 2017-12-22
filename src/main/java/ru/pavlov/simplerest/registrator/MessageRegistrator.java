@@ -1,6 +1,7 @@
 package ru.pavlov.simplerest.registrator;
 
 import ru.pavlov.simplerest.entity.Message;
+
 import javax.ejb.Stateless;
 import javax.inject.Inject;
 import javax.persistence.EntityManager;

@@ -1,6 +1,5 @@
 package ru.pavlov.simplerest.registrator;
 
-import ru.pavlov.simplerest.entity.MessageMapping;
 import ru.pavlov.simplerest.entity.User;
 
 import javax.ejb.Stateless;

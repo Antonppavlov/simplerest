@@ -2,7 +2,6 @@ package ru.pavlov.simplerest.repository;
 
 
 import ru.pavlov.simplerest.entity.User;
-import ru.pavlov.simplerest.entity.User;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;

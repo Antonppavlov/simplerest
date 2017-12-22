@@ -18,18 +18,18 @@ public class MessageMapping implements Serializable {
 
     @NotNull
     @JoinColumn(name = "to_user_id")
-    @ManyToOne(targetEntity = User.class, fetch = FetchType.EAGER,cascade = CascadeType.ALL)
+    @ManyToOne(targetEntity = User.class, fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     private User toUserId;
 
     @NotNull
     @JoinColumn(name = "from_user_id")
-    @ManyToOne(targetEntity = User.class, fetch = FetchType.EAGER,cascade = CascadeType.ALL)
+    @ManyToOne(targetEntity = User.class, fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     private User fromUserId;
 
 
     @NotNull
     @JoinColumn(name = "message_id")
-    @ManyToOne(targetEntity = Message.class, fetch = FetchType.EAGER,cascade = CascadeType.ALL)
+    @ManyToOne(targetEntity = Message.class, fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     private User messageId;
 
     public long getId() {
