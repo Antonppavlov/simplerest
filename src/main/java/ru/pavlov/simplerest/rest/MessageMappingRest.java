@@ -43,4 +43,5 @@ public class MessageMappingRest {
         logger.info("MessageMapping getById: " + id);
         return messageMappingRepository.getById(id);
     }
+
 }
