@@ -20,6 +20,7 @@ public class MessageMappingRest {
     @Inject
     private Logger logger;
 
+
     @Inject
     private MessageMappingRegistrator messageMappingRegistrator;
 
